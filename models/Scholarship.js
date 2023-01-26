@@ -28,6 +28,10 @@ const ScholarshipSchema = new mongoose.Schema({
         type: Boolean,
         required: true,
         default: false,
+    },
+    photo: {
+        required: false,
+        type: String,
     }
 }, { timestamps: true }
 );
